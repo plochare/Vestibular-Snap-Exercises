@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    238fac8a-5a4f-49b1-9542-182e8bd43eb6: 6cbe2b47-83e5-4af8-b594-3db4389d1c40/75cd63e4a8fa883769f528a06d08590f/Data/collectsound.mp3
+  Assets:
+    - !<FileAudioTrack/238fac8a-5a4f-49b1-9542-182e8bd43eb6>
+      PackagePath: ""
+  SourceHash: 75cd63e4a8fa883769f528a06d08590f
+  FileHash: 91b4c260c7d4e4506cd24abd74bb4f1e
+  NativePackageItems:
+    []

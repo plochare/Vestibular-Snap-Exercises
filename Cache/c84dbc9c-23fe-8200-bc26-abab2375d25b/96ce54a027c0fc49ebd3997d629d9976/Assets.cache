@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    005bd19c-7a51-4a88-9d2b-03b65dabb016: c84dbc9c-23fe-8200-bc26-abab2375d25b/96ce54a027c0fc49ebd3997d629d9976/Data/bubble.png
+  Assets:
+    - !<FileTexture/005bd19c-7a51-4a88-9d2b-03b65dabb016>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 96ce54a027c0fc49ebd3997d629d9976
+  FileHash: 70080647b794ae97f2f6ae695168470f
+  NativePackageItems:
+    []

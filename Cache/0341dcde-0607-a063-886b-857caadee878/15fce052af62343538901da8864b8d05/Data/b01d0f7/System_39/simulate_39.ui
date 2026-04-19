@@ -1,0 +1,105 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{ 
+                	"bindingName": "spawnTex", 
+                	"label":       "Spawn Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"label": "Script Control",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label": "Decode Mesh Data",
+                    	"widget": "group_start"
+                    },                        
+                        { 
+                        	"bindingName": "meshData0", 
+                        	"label":       "Mesh Data 0", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "1",
+                        	"hint":        ""
+                        },
+                        
+                        { 
+                        	"bindingName": "meshData1", 
+                        	"label":       "Mesh Data 1", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "2",
+                        	"hint":        ""
+                        },
+                        
+                        { 
+                        	"bindingName": "meshData2", 
+                        	"label":       "Mesh Data 2", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "3",
+                        	"hint":        ""
+                        },
+                        
+                        { 
+                        	"bindingName": "meshData3", 
+                        	"label":       "Mesh Data 3", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "4",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "objectBoundsMin",
+                        	"label":       "Object Bounds Min",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "5",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "objectBoundsMax",
+                        	"label":       "Object Bounds Max",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "6",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "PostProcessing",
+	
+	"extraDefines":
+	[
+		
+	]
+}

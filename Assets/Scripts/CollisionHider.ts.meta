@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/45255491-8c0a-4b3c-a618-7de1cfa0d4ae>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 30a705ae-34e3-4f6b-8d56-0448a7a67628
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 30a705ae-34e3-4f6b-8d56-0448a7a67628
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d584aff5-a482-4d72-afd6-e58a8ec79fed
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d584aff5-a482-4d72-afd6-e58a8ec79fed>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d276d84d-ab17-47b0-898d-bfa84b7ce79e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    direction: false
+    movingObject: false
+    speed: false
+    targetParent: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - movingObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      speed: !<float> 10.000000
+      direction: !<Vec3> {x: 1.000000, y: 0.000000, z: 0.000000}
+      targetParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject movingObject
+    - // @input float speed = 10
+    - "// @input vec3 direction = {1,0,0}"
+    - // @input SceneObject targetParent

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1444dfe3-907f-4ce5-857a-aa2ea4cc9aea: 444a0172-9eb6-4161-442d-2654bf7d843a/3c85dd994edcc79204bed28af8a20808/Data/red_panda_normal.png
+  Assets:
+    - !<FileTexture/1444dfe3-907f-4ce5-857a-aa2ea4cc9aea>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 3c85dd994edcc79204bed28af8a20808
+  FileHash: 954e8f9603e837540abbf0570bce5748
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4e8597b6-fab5-439f-9fea-2a98816e5e60: f9ffbca2-69d3-4701-87ec-26a8b2a9d819/1711f13200a480068a5a9d8e797aad0e/Data/headtil.jpg
+  Assets:
+    - !<FileTexture/4e8597b6-fab5-439f-9fea-2a98816e5e60>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 190
+        Height: 168
+  SourceHash: 1711f13200a480068a5a9d8e797aad0e
+  FileHash: 6336a67b5840d15d7e7c716dafc7fc0e
+  NativePackageItems:
+    []

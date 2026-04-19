@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/aa8600a8-2622-48f4-ad78-ed823bab4e60>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 13c40c2f-7968-4d27-a20b-86098e833530
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 13c40c2f-7968-4d27-a20b-86098e833530
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f6a9569a-67e2-40e7-b680-7567f7502dad
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f6a9569a-67e2-40e7-b680-7567f7502dad>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 302f0386-3d16-4f64-b152-1653b3bd2171
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    distanceHider: false
+    enableDebug: false
+    finalCompletionSoundEffect: false
+    rowClearedSoundEffect: false
+    rowParents: false
+    rowTexts: false
+    uiTextElement: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - rowParents: !<reference.SceneObject[]>
+        []
+      distanceHider: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      enableDebug: true
+      uiTextElement: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      rowTexts: !<string[]>
+        []
+      rowClearedSoundEffect: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      finalCompletionSoundEffect: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input SceneObject[] rowParents = {}"
+    - // @input AssignableType distanceHider
+    - // @input bool enableDebug = true
+    - // @input Component.Text uiTextElement
+    - "// @input string[] rowTexts = {}"
+    - // @input Component.AudioComponent rowClearedSoundEffect
+    - // @input Component.AudioComponent finalCompletionSoundEffect

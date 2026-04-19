@@ -1,0 +1,193 @@
+- !<AssetCache>
+  AssetFiles:
+    151ca88f-1e92-4f56-a162-9943d4ee1f62: 2603f10f-16f1-5a5b-6156-5f97f1a7c755/c0480fab93377ad1b0aaa01fc74b3d9f/Data/meshdata_mat.ss_graph
+  Assets:
+    - !<ShaderGraphPass/151ca88f-1e92-4f56-a162-9943d4ee1f62>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input1_N001:
+          typeIdx: 3
+          value: {x: 2.000000, y: 2.000000}
+        Port_Input1_N038:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_LODValue_N033:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N034:
+          typeIdx: 1
+          value: 0.000000
+        Port_Max2_N013:
+          typeIdx: 1
+          value: 1.000000
+        Port_Max2_N031:
+          typeIdx: 1
+          value: 1.000000
+        Port_Min2_N013:
+          typeIdx: 1
+          value: 0.000000
+        Port_Min2_N031:
+          typeIdx: 1
+          value: 0.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RangeMaxA_N016:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N021:
+          typeIdx: 1
+          value: 10.000000
+        Port_RangeMaxB_N016:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N021:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinA_N016:
+          typeIdx: 1
+          value: -1.000000
+        Port_RangeMinA_N021:
+          typeIdx: 1
+          value: -10.000000
+        Port_RangeMinB_N016:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N021:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value2_N013:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value2_N017:
+          typeIdx: 1
+          value: -1.000000
+        Port_Value3_N017:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N017:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N032:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Object Bounds Min
+            mType: Property
+            mName: objectBoundsMin
+            mWidget: spinbox
+            mHint: "Property: objectBoundsMin"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Object Bounds Max
+            mType: Property
+            mName: objectBoundsMax
+            mWidget: spinbox
+            mHint: "Property: objectBoundsMax"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Mesh Data 0
+            mType: Property
+            mName: meshData0
+            mWidget: texture_group
+            mHint: "Property: meshData0"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mesh Data 1
+            mType: Property
+            mName: meshData1
+            mWidget: texture_group
+            mHint: "Property: meshData1"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: 2603f10f-16f1-5a5b-6156-5f97f1a7c755/c0480fab93377ad1b0aaa01fc74b3d9f/Data/b01d0f7/meshdata_mat.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: c0480fab93377ad1b0aaa01fc74b3d9f
+  FileHash: a9663748e67a773bb8ec9c075979839c
+  NativePackageItems:
+    []

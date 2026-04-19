@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    c3dee66c-0f9f-4fb4-950e-25949d86e9f2: 1eed96d9-d6a7-47ae-85dd-f6562dca090a/27ec7dde590601bfcddc52356615255d/Data/finishsoundeffect.mp3
+  Assets:
+    - !<FileAudioTrack/c3dee66c-0f9f-4fb4-950e-25949d86e9f2>
+      PackagePath: ""
+  SourceHash: 27ec7dde590601bfcddc52356615255d
+  FileHash: 7012de7045d2413ef3cd2fc6f26c0484
+  NativePackageItems:
+    []

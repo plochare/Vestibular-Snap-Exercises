@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e91c3cc6-f688-43c4-92e4-9429c6744fd8: 2f72ad6b-5e14-4243-88b1-b14256deeeb0/2a64662cfcd65629dc0d172f56bc3201/Data/bend.png
+  Assets:
+    - !<FileTexture/e91c3cc6-f688-43c4-92e4-9429c6744fd8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 190
+        Height: 168
+  SourceHash: 2a64662cfcd65629dc0d172f56bc3201
+  FileHash: 0c7fcd73993e56d218c16f87f942f39a
+  NativePackageItems:
+    []

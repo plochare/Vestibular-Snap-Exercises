@@ -1,0 +1,79 @@
+- !<AssetImportMetadata/f9d2ac73-0577-41ca-a6e1-c6e62b7313ab>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 57bcd13e-ee7e-4129-a529-f195a95bcbe2
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 57bcd13e-ee7e-4129-a529-f195a95bcbe2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 3f621a09-46c7-49e9-9b49-3a236d5cf276
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/3f621a09-46c7-49e9-9b49-3a236d5cf276>
+  SourceRemaps:
+    - 1a078320-df68-4981-979d-e1bddf277a1d: d20a91b3-3a8b-4a76-b9d2-5477629940a2
+    - 4868d422-ffe5-41b1-b22e-ddca1e3dd5bf: ead3ef19-3bc1-4bb0-b24b-327a78356b9c
+    - 57bcd13e-ee7e-4129-a529-f195a95bcbe2: 447f8ed4-735a-4af5-afaa-8703b517d49d
+    - a7cbef5e-f641-4b5d-a94f-e0dc9c50ed0c: a16b07a7-7158-4324-8e9b-57c0fc43a675
+  SourceState: !<own> 447f8ed4-735a-4af5-afaa-8703b517d49d
+- !<ObjectPrefab/447f8ed4-735a-4af5-afaa-8703b517d49d>
+  PackagePath: ""
+  objects:
+    - !<own> ead3ef19-3bc1-4bb0-b24b-327a78356b9c
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/a16b07a7-7158-4324-8e9b-57c0fc43a675>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 0.250000
+  Materials:
+    - !<reference> bfd5df7d-81bc-4c3d-ae9a-ffb0c709b0f4
+  Mesh: !<reference> bd48663a-faed-4ea4-848f-ecabcecb4570
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d20a91b3-3a8b-4a76-b9d2-5477629940a2>
+  PrefabRemaps:
+    []
+  Name: GPU Particle Preset
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -17.574265, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a16b07a7-7158-4324-8e9b-57c0fc43a675
+- !<SceneObject/ead3ef19-3bc1-4bb0-b24b-327a78356b9c>
+  PrefabRemaps:
+    []
+  Name: Bubble_Particles_DRAG_ME__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d20a91b3-3a8b-4a76-b9d2-5477629940a2
+  Components:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7a80cad7-9769-4b26-8852-5027df78db22: 3b68e79e-e0c0-4a48-88a4-a7878914b71e/762f234b50de32885577af53ff347199/Data/eye.jpg
+  Assets:
+    - !<FileTexture/7a80cad7-9769-4b26-8852-5027df78db22>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 190
+        Height: 168
+  SourceHash: 762f234b50de32885577af53ff347199
+  FileHash: 7bf8099c47bf35c427f400858fa41d34
+  NativePackageItems:
+    []
